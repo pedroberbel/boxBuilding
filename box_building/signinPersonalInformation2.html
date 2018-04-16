@@ -68,58 +68,62 @@
 
         <!-- REGISTRATION FORM -->
         <div class="text-center" style="padding:50px 0">
-        	<div class="logo">Criar Conta</div>
+        	<div class="logo">Dados Físicos</div>
         	<!-- Main Form -->
         	<div class="login-form-1">
-
-        		<form id="register-form" class="text-left" method="GET" action="signinConfirmMessage.php">
+        		<form id="register-form" class="text-left">
         			<div class="login-form-main-message"></div>
         			<div class="main-login-form">
         				<div class="login-group">
         					<div class="form-group">
-        					<!--	<label for="reg_username" class="sr-only">Email address</label>
-        						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="Usuário"> -->
-                      <label for="reg_email" class="sr-only">Email</label>
-                      <input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
+        				<label for="reg_username" class="sr-only">Email address</label>
+        						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="Nome Completo">
 
         					</div>
         					<div class="form-group">
         						<label for="reg_password" class="sr-only">Password</label>
-        						<input type="password" class="form-control" id="reg_password" name="reg_password" placeholder="Senha">
-        					</div>
-        					<div class="form-group">
-        						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
-        						<input type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="Confirmar Senha">
+        						<input type="date" class="form-control" id="reg_datNasc" name="reg_pdatNasc" placeholder="dd/mm/aaaa">
         					</div>
 
-        				<!--	<div class="form-group">
-        						<label for="reg_email" class="sr-only">Email</label>
-        						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
-        					</div> -->
-              <!--
-        					<div class="form-group">
-        						<label for="reg_fullname" class="sr-only">Full Name</label>
-        						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="Nome Completo">
-        					</div>
-
-        					<div class="form-group login-group-checkbox">
+                  <div class="form-group login-group-checkbox">
         						<input type="radio" class="" name="reg_gender" id="male" placeholder="username">
         						<label for="male">Masculino</label>
 
         						<input type="radio" class="" name="reg_gender" id="female" placeholder="username">
         						<label for="female">Feminino</label>
         					</div>
-                -->
-        					<div class="form-group login-group-checkbox">
-        						<input type="checkbox" class="" id="reg_agree" name="reg_agree">
-        						<label for="reg_agree">Eu concordo com os <a href="#">termos</a></label>
-        					</div>
-        				</div>
 
+        					<div class="form-group">
+        						<label for="reg_cep" class="sr-only">Password Confirm</label>
+        						<input type="text" class="form-control" id="reg_cep" name="reg_cep" placeholder="CEP">
+        					</div>
+
+        				<div class="form-group">
+        						<label for="reg_estado" class="sr-only">Email</label>
+        						<input type="text" class="form-control" id="reg_estado" name="reg_estado" placeholder="Estado">
+        					</div>
+
+        					<div class="form-group">
+        						<label for="reg_fullname" class="sr-only">Full Name</label>
+        						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="Cidade">
+        					</div>
+                  <div class="form-group">
+        						<label for="reg_fullname" class="sr-only">Full Name</label>
+        						<input type="text" class="form-control" id="reg_bairro" name="reg_fullname" placeholder="Bairro">
+        					</div>
+                  <div class="form-group">
+        						<label for="reg_fullname" class="sr-only">Full Name</label>
+        						<input type="text" class="form-control" id="reg_rua" name="reg_fullname" placeholder="Rua">
+        					</div>
+
+
+
+
+        				</div>
         				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
         			</div>
         			<div class="etc-login-form">
-        				<p>Já é cadastrado? <a href="login.html">Entre Aqui</a></p>
+        				<p>Quero <a href="login.html">Preencher Depois</a></p>
         			</div>
         		</form>
         	</div>
