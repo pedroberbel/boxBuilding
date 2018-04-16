@@ -23,7 +23,8 @@ html,
 body {
   background: #efefef;
   padding: 10px;
-  font-family: 'Varela Round';
+  /* font-family: 'Varela Round';  */
+  font-family: 'Times New Roman';
 }
 /*=== 2. Anchor Link ===*/
 a {
