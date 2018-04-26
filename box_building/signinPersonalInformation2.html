@@ -67,7 +67,7 @@
         <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
         <!-- REGISTRATION FORM -->
-        <div class="text-center" style="padding:50px 0">
+        <div class="text-center" style="padding:20px 0">
         	<div class="logo">Dados Pessoais e Físicos (2/3)</div>
         	<!-- Main Form -->
         	<div class="login-form-1">
@@ -76,62 +76,68 @@
         			<div class="main-login-form">
         				<div class="login-group">
         					<div class="form-group">
-        				<label for="reg_username" class="sr-only">Email address</label>
+        				<label for="reg_username" class="sr-only">Altura</label>
         						<input type="text" class="form-control" id="reg_username" name="reg_username" placeholder="Altura">
 
         					</div>
         					<div class="form-group">
-        						<label for="reg_password" class="sr-only">Password</label>
+        						<label for="reg_password" class="sr-only">Peso</label>
         						<input type="text" class="form-control" id="reg_datNasc" name="reg_pdatNasc" placeholder="Peso">
         					</div>
 
-                  <!--<div class="form-group login-group-checkbox">
-        						<input type="radio" class="" name="reg_gender" id="male" placeholder="username">
-        						<label for="male">Masculino</label>
-
-        						<input type="radio" class="" name="reg_gender" id="female" placeholder="username">
-        						<label for="female">Feminino</label>
-        					</div> -->
-
         					<div class="form-group">
-        						<label for="reg_cep" class="sr-only">Password Confirm</label>
-        						<input type="text" class="form-control" id="reg_cep" name="reg_cep" placeholder="Preferências Alimentares">
+        						<label for="reg_cep" class="sr-only">Preferência Alimentar</label>
+        						<input type="text" class="form-control" id="reg_alimento" name="reg_cep" placeholder="Preferências Alimentares">
         					</div>
 
         				<div class="form-group">
-        						<label for="reg_estado" class="sr-only">Email</label>
-        						<input type="text" class="form-control" id="reg_estado" name="reg_estado" placeholder="Alergias">
+        						<label for="reg_estado" class="sr-only">Alergia</label>
+        						<input type="text" class="form-control" id="reg_alergia" name="reg_estado" placeholder="Alergias">
         					</div>
 
         					<div class="form-group">
-        						<label for="reg_fullname" class="sr-only">Full Name</label>
-        						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="Cirurgias">
+        						<label for="reg_fullname" class="sr-only">Cirurgia</label>
+        						<input type="text" class="form-control" id="reg_cirurgia" name="reg_fullname" placeholder="Cirurgias">
         					</div>
                   <div class="form-group">
-        						<label for="reg_fullname" class="sr-only">Full Name</label>
-        						<input type="text" class="form-control" id="reg_bairro" name="reg_fullname" placeholder="Contusôes">
+        						<label for="reg_fullname" class="sr-only">Contusao</label>
+        						<input type="text" class="form-control" id="reg_contusao" name="reg_fullname" placeholder="Contusões">
         					</div>
                   <div class="form-group">
-        						<label for="reg_fullname" class="sr-only">Full Name</label>
-        						<input type="text" class="form-control" id="reg_rua" name="reg_fullname" placeholder="Fraturas">
+        						<label for="reg_fullname" class="sr-only">Fratura</label>
+        						<input type="text" class="form-control" id="reg_fratura" name="reg_fullname" placeholder="Fraturas">
         					</div>
                   <div class="form-group">
-                    <label for="reg_fullname" class="sr-only">Full Name</label>
-                    <input type="text" class="form-control" id="reg_rua" name="reg_fullname" placeholder="Tipo de Esporte">
+                    <label for="reg_fullname" class="sr-only">esporteTipo</label>
+                    <input type="text" class="form-control" id="reg_esporteTipo" name="reg_fullname" placeholder="Tipo de Esporte">
                   </div>
                   <div class="form-group">
-                    <label for="reg_fullname" class="sr-only">Full Name</label>
-                    <input type="text" class="form-control" id="reg_rua" name="reg_fullname" placeholder="Periodicidade">
-                  </div>
-                  <div class="form-group">
-                    <label for="reg_fullname" class="sr-only">Full Name</label>
-                    <input type="text" class="form-control" id="reg_rua" name="reg_fullname" placeholder="Performance Física Desejada">
+                    <label for="reg_fullname" class="sr-only">periodicidade</label>
+                    <input type="text" class="form-control" id="reg_periodicidade" name="reg_fullname" placeholder="Periodicidade">
+                  </div> Performance Desejada<br>
+                  <div class="form-group login-group-checkbox" style="margin-left:20px; margin-right:78px">
+                    <input type="radio" class="" name="perform_type" id="boxStandard" placeholder="username">
+                    <label for="boxStandard">Hipertrofia</label>
+                    <br>
+                    <input type="radio" class="" name="perform_type" id="boxPremium" placeholder="username">
+                    <label for="boxPremium">Ganho de Massa Muscular</label>
+                    <br>
+                    <input type="radio" class="" name="perform_type" id="boxDeluxe" placeholder="boxType">
+                    <label for="boxDeluxe">Emagrecimento</label>
+                    <br>
+                    <input type="radio" class="" name="perform_type" id="boxDeluxe" placeholder="boxType">
+                    <label for="boxDeluxe">Modelagem</label>
+                    <br>
+                    <input type="radio" class="" name="perform_type" id="boxDeluxe" placeholder="boxType">
+                    <label for="boxDeluxe">Condicionamento Físico</label>
+                    <br>
+                    	<input type="text" class="form-control" id="reg_fratura" name="reg_fullname" placeholder="Outros" style="border:1px solid #cfcfcf; width:auto; padding-left:5px;">
                   </div>
 
 
 
         				</div>
-        				<button type="submit" class="login-button"><image src="icons/buttonIcon.png" height="40" width="43"><i class="fa fa-chevron-right"></i></button>
+        				<button type="submit" class="login-button"><image src="icons/buttonIcon.png" height="40" width="43" id="imgButton"><i class="fa"></i></button>
         			</div>
         			<div class="etc-login-form">
         				<p>Quero <a href="login.html">Preencher Depois</a></p>

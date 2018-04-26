@@ -6,6 +6,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/trocaImagem.js"></script>
 
         <!-- login/signin -->
         <link href="css/login-style.css" rel="stylesheet" id="bootstrap-css">
@@ -67,7 +68,7 @@
         <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
         <!-- REGISTRATION FORM -->
-        <div class="text-center" style="padding:50px 0">
+        <div class="text-center" style="padding:20px 0">
         	<div class="logo">Dados Pessoais e Físicos (3/3)</div>
         	<!-- Main Form -->
         	<div class="login-form-1">
@@ -76,56 +77,44 @@
 
 
                       <div class="main-login-form">
-
-                      <div class="login-group"> Tipo de Box
-                      <div class="login-group"> Tipo
-
-                      <div class="form-group login-group-checkbox">
-        						     <input type="radio" class="" name="box_boxStandard" id="boxStandard" placeholder="username">
-        						     <label for="boxStandard">Standard</label>
-                         <br>
-        					     	 <input type="radio" class="" name="box_boxpremium" id="boxPremium" placeholder="username">
-        						     <label for="boxPremium">Premium</label>
-                         <br>
-                         <input type="radio" class="" name="box_boxDeluxe" id="boxDeluxe" placeholder="boxType">
-                         <label for="boxDeluxe">Deluxe</label>
-        					    </div>
-                      </div>
-                      </div>
-
-                      <div class="form-group"> Plano
-                      <div class="form-group"> Sub
-                        <div class="form-group login-group-checkbox">
-
-                          <input type="radio" class="" name="reg_gender" id="mensal" placeholder="username">
-                          <label for="mensal">Mensal</label>
-                          <br>
-                          <input type="radio" class="" name="reg_gender" id="trimestral" placeholder="username">
-                          <label for="trimestral">Trimestral</label>
-                          <br>
-                          <input type="radio" class="" name="reg_gender" id="semestral" placeholder="username">
-                          <label for="semestral">Semestral</label>
-                          <br>
-                          <input type="radio" class="" name="reg_gender" id="anual" placeholder="username">
-                          <label for="anual">Anual</label>
-                          <br>
-                          <input type="radio" class="" name="reg_gender" id="bianual" placeholder="username">
-                          <label for="bianual">Bianual</label>
+                        <div class="login-group"> Pacote<br>
+                          <div class="form-group login-group-checkbox" style="margin-left:20px; margin-right:78px">
+                            <input type="radio" class="" name="box_type" id="boxStandard" placeholder="username">
+                            <label for="boxStandard">Standard</label>
+                            <br>
+                            <input type="radio" class="" name="box_type" id="boxPremium" placeholder="username">
+                            <label for="boxPremium">Premium</label>
+                            <br>
+                            <input type="radio" class="" name="box_type" id="boxDeluxe" placeholder="boxType">
+                            <label for="boxDeluxe">Deluxe</label>
+                          </div> Plano <br>
+                          <div class="form-group login-group-checkbox" style="margin-left:20px; margin-right:78px">
+                            <input type="radio" class="" name="reg_gender" id="mensal" placeholder="username">
+                            <label for="mensal">Mensal</label>
+                            <br>
+                            <input type="radio" class="" name="reg_gender" id="trimestral" placeholder="username">
+                            <label for="trimestral">Trimestral</label>
+                            <br>
+                            <input type="radio" class="" name="reg_gender" id="semestral" placeholder="username">
+                            <label for="semestral">Semestral</label>
+                            <br>
+                            <input type="radio" class="" name="reg_gender" id="anual" placeholder="username">
+                            <label for="anual">Anual</label>
+                            <br>
+                            <input type="radio" class="" name="reg_gender" id="bianual" placeholder="username">
+                            <label for="bianual">Bianual</label>
+                          <!-- </div> -->
+                            </div>
+                            <!-- <button type="submit" class="login-button"><i class="fa"></i></button> -->
+                          <button type="submit" class="login-button"><image src="icons/buttonIcon.png" height="40" width="43" id="imgButton"><i class="fa"></i></button>  
                         </div>
                       </div>
-                    </div>
 
-
-        				<!-- </div> -->
-        				<button type="submit" class="login-button"><image src="icons/buttonIcon.png" height="40" width="43"><i class="fa fa-chevron-right"></i></button>
-        			</div>
-              	</div>
         			<div class="etc-login-form">
-
-        				<p>Quero <a href="login.html">Preencher Depois</a></p>
+        				<p>Quero <a href="userIndex.html">Preencher Depois</a></p>
         			</div>
+
         		</form>
-        	<!-- </div> -->
         	<!-- end:Main Form -->
         </div>
 

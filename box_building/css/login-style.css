@@ -104,18 +104,15 @@ a:hover {
   /* border: 5px solid #efefef; */
   border: 1 solid #000;
   border-radius: 50%;
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 600ms;
   background-size: auto;
-}
-.imageButton {
-  background-image:url("icons/buttonIcon.png");
-  width: auto;
-  height: auto;
+  opacity:1;
 }
 .login-form-1 .login-button:hover {
   color: #555555;
-  transform: rotate(450deg);
+  transform: rotate(720deg);
 }
+
 .login-form-1 .login-button.clicked {
   color: #555555;
 }
